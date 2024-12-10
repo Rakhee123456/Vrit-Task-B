@@ -1,71 +1,84 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Kanban Board Project
 
-## Available Scripts
+A fully functional **Kanban Board** built using **React JS** and **Tailwind CSS**. This project includes drag-and-drop functionality, a task management system, and the ability to dynamically add new tasks to different columns.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. **Add Task**
+- Add new tasks dynamically using the input form.
+- Assign tasks to specific columns such as **To Do**, **Done**, **In Review**, or **Backlog**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. **Drag and Drop Tasks**
+- Move tasks between columns with drag-and-drop functionality.
+- Powered by `react-beautiful-dnd` for a seamless and smooth experience.
 
-### `npm test`
+### 3. **Responsive Design**
+- Fully responsive layout for both desktop and mobile screens.
+- Styled using **Tailwind CSS** for consistency and ease of customization.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React JS**: For building the user interface and managing the state.
+- **Tailwind CSS**: For modern, responsive styling.
+- **react-beautiful-dnd**: For drag-and-drop task functionality.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup Instructions
 
-### `npm run eject`
+### Prerequisites
+Ensure you have the following installed on your machine:
+1. **Node.js** (v14 or above)
+2. **npm** or **yarn**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd <repository_folder>
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Open the app in your browser at `http://localhost:3000`.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Add a New Task
+1. Enter a task title in the **input field**.
+2. Select the column where the task belongs using the **dropdown menu**.
+3. The task will appear in the selected column immediately.
 
-### Code Splitting
+### Drag and Drop Tasks
+1. Hover over a task to reveal the **drag handle**.
+2. Drag the task to another column and drop it.
+3. The task will be moved to the new column seamlessly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Example Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Kanban Board Overview
+![Kanban Board](./src/assests/ss.jpg)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Vrit-Task-B
+---
